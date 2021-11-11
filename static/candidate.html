@@ -1,0 +1,162 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Candidate</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.0/examples/checkout/form-validation.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+
+    <div class="container">
+      <div class="py-5 text-center">
+        <h2>Add your details</h2>
+        
+      </div>
+
+      <div class="row">
+        
+        <div class="col-md-12 order-md-1">
+          <h4 class="mb-3">Personal Details</h4>
+          <form class="needs-validation" novalidate action="/candidate" method='post'>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">DegreeType</label>
+                <input type="text" class="form-control" id="firstName" name="DegreeType" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Major</label>
+                <input type="text" class="form-control" id="lastName" name="Major" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">GraduationDate (yyyy-mm-dd)</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" name="GraduationDate" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">WorkHistoryCount</label>
+              <input type="number" class="form-control" name="WorkHistoryCount" id="email" placeholder="0">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">TotalYearsExperience</label>
+              <div class="input-group">
+                <input type="number" class="form-control" id="username" name="TotalYearsExperience" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">CurrentlyEmployed</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" name="CurrentlyEmployed" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">ManagedOthers</label>
+              <input type="text" class="form-control" name="ManagedOthers" id="address" placeholder="1234 Main St" required value="Yes">
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">ManagedHowMany</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" name="ManagedHowMany" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">Country</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" name="Country" placeholder="Username" required value="US">
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">State</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" name="State" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="username">City</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" name="City" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <label for="zip">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" name="ZipCode" required value="90019">
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+
+            <input type="text" name="WindowID" value="1">
+            <input type="text" name="UserID" value="11111">
+            <input type="text" name="Split" value="Train">
+            <hr class="mb-4">
+            
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    </body>
+</html>
